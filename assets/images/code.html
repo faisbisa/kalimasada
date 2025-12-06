@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KALIMASADA - Jamu Tradisional Nusantara</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #8B4513; /* Warna coklat untuk tema tradisional */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #A0522D;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1200x400?text=KALIMASADA+Jamu+Tradisional'); /* Placeholder image */
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .category {
+            padding: 40px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .category h2 {
+            color: #8B4513;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .product {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            width: 250px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .product button {
+            background-color: #8B4513;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .product button:hover {
+            background-color: #A0522D;
+        }
+        footer {
+            background-color: #8B4513;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>KALIMASADA</h1>
+        <p>Jamu Tradisional Nusantara untuk Kesehatan dan Kenyamanan</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#categories">Kategori</a></li>
+            <li><a href="#about">Tentang Kami</a></li>
+            <li><a href="#contact">Kontak</a></li>
+            <li><a href="#cart">Keranjang</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div>
+            <h1>Selamat Datang di KALIMASADA</h1>
+            <p>Temukan jamu tradisional terbaik untuk kesehatan Anda. Pesan sekarang dan rasakan manfaatnya!</p>
+        </div>
+    </section>
+
+    <section id="categories">
+        <div class="category">
+            <h2>1. Kategori: Wedang Tradisional (Hangat & Menenangkan)</h2>
+            <p>Perpaduan rempah dan bahan alami khas Indonesia, disajikan hangat untuk memberikan rasa nyaman, menjaga metabolisme, serta membantu meredakan berbagai keluhan harian.</p>
+            <div class="products">
+                <div class="product">
+                    <img src="https://via.placeholder.com/250x150?text=Wedang+Asam+Urat" alt="Wedang Asam Urat">
+                    <h3>Wedang Asam Urat</h3>
+                    <p>Minuman herbal hangat untuk meredakan asam urat.</p>
+                    <button>Beli Sekarang</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/250x150?text=Wedang+Uwuh" alt="Wedang Uwuh">
+                    <h3>Wedang Uwuh</h3>
+                    <p>Racikan rempah untuk kenyamanan tubuh.</p>
+                    <button>Beli Sekarang</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/250x150?text=Wedang+Masuk+Angin" alt="Wedang Masuk Angin">
+                    <h3>Wedang Masuk Angin</h3>
+                    <p>Meredakan masuk angin dengan rempah alami.</p>
+                    <button>Beli Sekarang</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/250x150?text=Wedang+Empon-Empon" alt="Wedang Empon-Empon">
+                    <h3>Wedang Empon-Empon</h3>
+                    <p>Minuman hangat untuk menenangkan tubuh.</p>
+                    <button>Beli Sekarang</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/250x150?text=Wedang+Rematik" alt="Wedang Rematik">
+                    <h3>Wedang Rematik</h3>
+                    <p>Bantu meredakan rematik dengan rempah tradisional.</p>
+                    <button>Beli Sekarang</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>2. Kategori: Jamu Fungsional (Healing & Restorative)</h2>
+            <p>Jamu tradisional dengan fokus pada pemulihan tubuh, meredakan pegal, meningkatkan stamina, dan menjaga vitalitas. Cocok untuk aktivitas padat dan gaya hidup modern.</p>
+            <div class="products">
+                <div class="product">
+                    <img src="https://via.placeholder.com/250x150?text=Jamu+Pegel+Linu" alt="Jamu Pegel Linu">
+                    <h3>Jamu Pegel Linu</h3>
+                    <p>Racikan untuk meredakan pegal linu dan meningkatkan stamina.</p>
+                    <button>Beli Sekarang</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/250x150?text=Jahe+Kencur" alt="Jahe Kencur">
+                    <h3>Jahe Kencur</h3>
+                    <p>Perpaduan jahe dan kencur untuk vitalitas tubuh.</p>
+                    <button>Beli Sekarang</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>3. Kategori: Sajian Manis Tradisional (Comfort Drinks)</h2>
+            <p>Minuman rempah manis yang lembut dan creamy, cocok sebagai teman santai atau hidangan penutup ala tradisional.</p>
+            <div class="products">
+                <div class="product">
+                    <img src="https://via.placeholder.com/250x150?text=Bajigur" alt="Bajigur">
+                    <h3>Bajigur</h3>
+                    <p>Minuman manis hangat berbasis rempah.</p>
+                    <button>Beli Sekarang</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/250x150?text=Jasulang" alt="Jasulang">
+                    <h3>Jasulang</h3>
+                    <p>Jasuke hangat berbasis jahe dan susu gula, menyegarkan dan manis.</p>
+                    <button>Beli Sekarang</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>4. Signature Series – Lemonjae (Menu Unggulan Cafe)</h2>
+            <p>"Lemonjae adalah menu khas rumah kami — perpaduan segar lemon dan kehangatan jahe, disempurnakan racikan rempah pilihan. Rasanya segar, hangat, dan menyegarkan. Cocok dinikmati dingin maupun hangat."</p>
+            <div class="products">
+                <div class="product">
+                    <img src="https://via.placeholder.com/250x150?text=Lemonjae" alt="Lemonjae">
+                    <h3>Lemonjae</h3>
+                    <p>Minuman spesial dengan lemon dan jahe.</p>
+                    <button>Beli Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>&copy; 2023 KALIMASADA. Semua hak dilindungi.</p>
+        <p>Kontak: info@kalimasada.com | Telepon: 0812-3456-7890</p>
+    </footer>
+
+    <script>
+        // Simple script for cart simulation (placeholder)
+        const buttons = document.querySelectorAll('button');
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                alert('Produk ditambahkan ke keranjang!');
+            });
+        });
+    </script>
+
+</body>
+</html>
